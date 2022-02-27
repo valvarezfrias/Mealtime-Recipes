@@ -1,0 +1,8 @@
+class Recipe{
+  public Recipe(){
+
+    
+  }
+
+  
+}
