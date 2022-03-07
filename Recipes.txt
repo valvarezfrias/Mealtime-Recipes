@@ -1,0 +1,111 @@
+#Cheesy pasta
+Italian	Vegetarian
+Contains dairy
+*pasta(uncooked)
+cups
+2
+*mozzarella cheese
+cups
+0.25
+*sharp cheddar cheese
+cups
+0.25
+*parmasean cheese
+cups
+0.25
+*olive oil
+tablespoons
+2
+*italian seasoning
+tablespoons
+1
+*crushed red pepper flakes
+tablespoons
+1
+*salt
+teaspoons
+2
+*pepper
+teaspoons
+2
+$boil water. 
+put pasta in boiling water. 
+cook for 10 minutes. 
+Drain. 
+Add other ingedients. 
+Stir on medium heat until the cheese is melted. 
+Remove from heat and serve.
+
+#chocolate sandwhich
+dessert
+vegetarian
+contains dairy
+*bread
+slices
+2
+*fun size milk chocolate bar
+bars
+1
+*butter
+tablespoons
+1
+$butter the bread, 
+put the chocolate bar on on slice of bread, 
+and put the other slice of bread on top. 
+Microwave for 30 seconds and serve
+
+#Mac and cheese
+Italian
+Vegitarian
+contains dairy
+*pasta(uncooked)
+cups
+2
+*mozzarella cheese
+cups
+0.25
+*sharp cheddar cheese
+cups
+0.25
+$instructions
+more instructions
+too many instructions, its just mac and cheese
+
+#Plain pasta
+Italian
+Vegitarian
+*pasta(uncooked)
+cups
+2
+*olive oil
+tablespoons
+2
+*Butter
+tablespoons
+2
+$its pasta...put it in water and cook it?
+
+#CHEESE
+Murican
+Vegitarian
+*mozzarella cheese
+cups
+0.25
+*sharp cheddar cheese
+cups
+0.25
+$put it on a plate and eat it
+
+#Toast
+Murican
+Vegitarian
+*Bread
+slices
+1
+*Butter
+tablespoons
+1
+$put bread in toaster
+toast
+butter toast
+enjoy!

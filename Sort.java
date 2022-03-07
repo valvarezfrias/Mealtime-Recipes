@@ -1,9 +1,15 @@
 /*
 class Sort {
   
-  public static void byNumExtra(Recipe[] recipes, int numUserIngredients) {
+  public static ArrayList<String> byNumExtra(ArrayList<String> recipes) {
     
+    Arrays.sort(recipes.ingredList);
+    return recipes;
+  }
+  public static ArrayList<String> byCookTime(ArrayList<String> recipes) {
+    Arrays.sort(recipe.cookTime);
+    return recipes;
   }
 }
-
+  
 */
