@@ -6,6 +6,7 @@ class Recipe{
   public ArrayList ingredList, flair;
   public double cookTime;
   private String name, instructions;
+  public int numIngred;
   
   
   public Recipe(){
@@ -19,6 +20,7 @@ class Recipe{
     flair = keywords;
     cookTime = cookT;
     instructions = instruct;
+    numIngred = ingredList.size();
   }
 
   public String toString(){

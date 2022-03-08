@@ -1,15 +1,14 @@
+import java.util.ArrayList;
+
 /*
 class Sort {
   
   public static ArrayList<String> byNumExtra(ArrayList<String> recipes) {
     
-    Arrays.sort(recipes.ingredList);
+    Arrays.sort(recipes.numIngred);
     return recipes;
   }
-  public static ArrayList<String> byCookTime(ArrayList<String> recipes) {
-    Arrays.sort(recipe.cookTime);
-    return recipes;
-  }
-}
   
+}
 */
+  
