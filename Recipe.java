@@ -3,7 +3,7 @@ import java.io.*;
 
 class Recipe{
   
-  public ArrayList ingredList, flair;
+  public ArrayList<String> ingredList, flair;
   public double cookTime;
   private String name, instructions;
   public int numIngred;
@@ -56,10 +56,13 @@ class Recipe{
           }//loop to add flair
           if (str.charAt(0) == '*'){
             ingredName += str.substring(1, str.length());
+            thisRec.ingredList.add(ingredName);
+            /*
             ingredUnit = in.readLine();
             ingredQuant = in.readLine();
             thisRec.ingredList.add(ingredQuant + " " + ingredUnit + 
                                    " "  + ingredName);
+            */
           }
           str = in.readLine();
           if (str.charAt(0) == '$'){

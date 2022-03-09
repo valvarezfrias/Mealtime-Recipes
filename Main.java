@@ -3,8 +3,9 @@ import java.util.ArrayList;
 
 class Main {
 
-  public static ArrayList userIngredients, recipeList;
-  public static ArrayList searchOptions;
+  public static ArrayList<String> userIngredients;
+  public static ArrayList<Recipe> recipeList;
+  public static ArrayList<String> searchOptions;
   
   public static void main(String[] args) {
     userIngredients = new ArrayList<String>();
@@ -12,6 +13,8 @@ class Main {
     
     System.out.println("Welcome to MEALTIME RECIPES");
     recipeList = Recipe.loadRecipeFile();
+    userIngredients.add("mozzarella cheese");
+    userIngredients.add("sharp cheddar cheese");
     menu();
   }
 
@@ -33,9 +36,25 @@ class Main {
     //input.close();
   }
 
+  private static Boolean recipePossible(Recipe rec){
+    
+    for(String str: rec.ingredList){
+      if (!(userIngredients.contains(str)))
+        return false;
+    }
+    return true;
+  }
+
   private static void searchRecipes(){
-    Search.searchRecipes(userIngredients, recipeList);
+    Recipe thisRec;
+    System.out.println("Recipes possible: ");
+    for(int i = 0; i< recipeList.size();i++){
+      thisRec = recipeList.get(i);
+      if(recipePossible(thisRec))
+        System.out.println(i + " : " + thisRec); 
+    }
     /*
+    Search.searchRecipes(userIngredients, recipeList);
     if(userIngredients.contains("pancake mix")){
       System.out.println("Recipes possible: ");//example data
       System.out.println("1 : Pancakes"); 

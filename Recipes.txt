@@ -109,3 +109,164 @@ $put bread in toaster
 toast
 butter toast
 enjoy!
+
+#Brownies
+Dessert
+contains dairy
+*butter
+cup
+1
+*sugar
+cup
+2
+*cocoa powder
+cup
+.5 
+*vanilla extract
+teaspoon
+1
+*eggs 
+eggs
+4
+*all-purpose flour 
+cups
+1.5 
+*baking powder
+teaspoon
+.5 
+*salt
+teaspoon
+.5 
+$ Mix ingredients, Bake until cooked
+
+#Nachos
+Mexican
+contains dairy
+*Tortilla Chips 
+ounces
+24
+*Easy Chili Recipe 
+batch
+1
+*Sharp Cheddar Cheese
+ounces
+8
+*Salsa  
+cup
+1
+*Guacamole 
+batch
+.5
+*Jalapeno 
+peppers
+2
+*Sour Cream
+cup
+.5
+*Cilantro 
+bunch
+.5
+$ Mix ingredients, Bake until cheese is melty
+
+
+#Quesadilla
+Mexican
+Contains dairy
+*tortillas
+tortilla
+1
+*Grated cheese 
+cup
+1
+*butter
+cup
+1
+$ Mix and Melt
+
+#Cheese Dip
+Mexican
+Contains dairy
+*White American Cheese
+pound
+.5
+*butter
+tablespoon
+1
+*Milk 
+cup
+.25
+*Green Chilis
+can
+1
+*Cumin
+teaspoon
+.25
+*Garlic
+teaspoon
+.25
+*Cayenne Pepper 
+teaspoon
+.12
+$ Mix and Melt
+
+#Chocolate Mousse
+Dessert
+contains dairy
+*Semisweet Chocolate 
+ounces
+8
+*Vanilla Extract
+teaspoon
+1
+*Salt
+pinch
+1
+*Heavy Cream 
+cups
+3
+*Powdered Sugar
+cup
+.25
+$ Mix and bake, presumably.
+
+#Chocolate Muffins
+Dessert
+contains dairy
+*Brown Sugar 
+cup
+.75
+*Vegetable Oil 
+cup
+.33
+*Unsweetened Cocoa Powder
+tablespoon
+6
+*Water
+tablespoons
+6
+*Eggs
+eggs
+2
+*Vanilla Extract
+teaspoons
+2
+*All Purpose Flour
+cup
+1.67
+*Baking Powder
+teaspoons
+2
+*Baking Soda
+teaspoon
+.5
+*Salt
+teaspoon
+.25
+*Sour Cream 
+cup
+.75
+*Semisweet Chocolate Chips 
+cup
+1.33
+$ Mix ingredients, Bake until cooked
+
