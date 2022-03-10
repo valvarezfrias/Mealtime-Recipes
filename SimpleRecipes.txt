@@ -1,0 +1,77 @@
+#Cheesy pasta
+*pasta
+*mozzarella cheese
+*sharp cheddar cheese
+*parmasean cheese
+*olive oil
+*italian seasoning
+*crushed red pepper flakes
+*salt
+*pepper
+#chocolate sandwhich
+*bread
+*fun size milk chocolate bar
+*butter
+#Mac and cheese
+*pasta
+*mozzarella cheese
+*sharp cheddar cheese
+#Plain pasta
+*pasta
+*olive oil
+*Butter
+#CHEESE
+*mozzarella cheese
+*sharp cheddar cheese
+#Toast
+*Bread
+*Butter
+#Brownies
+*butter
+*sugar
+*cocoa powder
+*vanilla extract
+*eggs 
+*all-purpose flour 
+*baking powder
+*salt
+#Nachos
+*Tortilla Chips 
+*Easy Chili Recipe 
+*Sharp Cheddar Cheese
+*Salsa  
+*Guacamole 
+*Jalapeno 
+*Sour Cream
+*Cilantro 
+#Quesadilla
+*tortillas
+*Grated cheese 
+*butter
+#Cheese Dip
+*White American Cheese
+*butter
+*Milk 
+*Green Chilis
+*Cumin
+*Garlic
+*Cayenne Pepper 
+#Chocolate Mousse
+*Semisweet Chocolate 
+*Vanilla Extract
+*Salt
+*Heavy Cream 
+*Powdered Sugar
+#Chocolate Muffins
+*Brown Sugar 
+*Vegetable Oil 
+*Unsweetened Cocoa Powder
+*Water
+*Eggs
+*Vanilla Extract
+*All Purpose Flour
+*Baking Powder
+*Baking Soda
+*Salt
+*Sour Cream 
+*Semisweet Chocolate Chips 

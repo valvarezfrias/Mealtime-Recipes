@@ -2,7 +2,7 @@
 Italian	
 Vegetarian
 Contains dairy
-*pasta 
+*pasta
 cups
 2
 *mozzarella cheese
@@ -36,7 +36,7 @@ Drain.
 Add other ingedients. 
 Stir on medium heat until the cheese is melted. 
 Remove from heat and serve.
-
+ 
 #chocolate sandwhich
 dessert
 vegetarian
@@ -54,7 +54,7 @@ $butter the bread,
 put the chocolate bar on on slice of bread, 
 and put the other slice of bread on top. 
 Microwave for 30 seconds and serve
-
+ 
 #Mac and cheese
 Italian
 Vegitarian
@@ -71,7 +71,7 @@ cups
 $instructions
 more instructions
 too many instructions, its just mac and cheese
-
+ 
 #Plain pasta
 Italian
 Vegitarian
@@ -85,7 +85,7 @@ tablespoons
 tablespoons
 2
 $its pasta...put it in water and cook it?
-
+ 
 #CHEESE
 Murican
 Vegitarian
@@ -96,7 +96,7 @@ cups
 cups
 0.25
 $put it on a plate and eat it
-
+ 
 #Toast
 Murican
 Vegitarian
@@ -110,7 +110,7 @@ $put bread in toaster
 toast
 butter toast
 enjoy!
-
+ 
 #Brownies
 Dessert
 contains dairy
@@ -139,7 +139,7 @@ teaspoon
 teaspoon
 .5 
 $ Mix ingredients, Bake until cooked
-
+ 
 #Nachos
 Mexican
 contains dairy
@@ -168,8 +168,7 @@ cup
 bunch
 .5
 $ Mix ingredients, Bake until cheese is melty
-
-
+ 
 #Quesadilla
 Mexican
 Contains dairy
@@ -183,7 +182,7 @@ cup
 cup
 1
 $ Mix and Melt
-
+ 
 #Cheese Dip
 Mexican
 Contains dairy
@@ -209,7 +208,7 @@ teaspoon
 teaspoon
 .12
 $ Mix and Melt
-
+ 
 #Chocolate Mousse
 Dessert
 contains dairy
@@ -229,7 +228,7 @@ cups
 cup
 .25
 $ Mix and bake, presumably.
-
+ 
 #Chocolate Muffins
 Dessert
 contains dairy
@@ -270,4 +269,4 @@ cup
 cup
 1.33
 $ Mix ingredients, Bake until cooked
-
+ 

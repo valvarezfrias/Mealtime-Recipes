@@ -42,7 +42,10 @@ class Recipe{
       File recFile = new File("Recipes.txt");
       BufferedReader in = new BufferedReader (new FileReader(recFile));
       char key = 0;
+      
+      
       while ((str = in.readLine()) != null){
+        
         if(!(str.equals("")))
            key = str.charAt(0);
         if(key == '#'){ //new recipe
@@ -54,12 +57,19 @@ class Recipe{
             thisRec.flair.add(str);
             //System.out.println("added " + str + " to " + thisRec.name);
           }//loop to add flair
-          if (str.charAt(0) == '*'){
-            ingredName += str.substring(1, str.length());
+          
+          ingredName += str.substring(1, str.length());
+          thisRec.ingredList.add(ingredName);
+          
+          System.out.println("added " + ingredName + " to " + thisRec.name);
+          in.readLine();
+          in.readLine();
+          
+          while( ((str = in.readLine()) != null) && str.charAt(0) != '$' ){
+            ingredName = str.substring(1, str.length());
             thisRec.ingredList.add(ingredName);
             
             System.out.println("added " + ingredName + " to " + thisRec.name);
-            in.readLine();
             in.readLine();
             in.readLine();
             /*
@@ -69,14 +79,44 @@ class Recipe{
                                    " "  + ingredName);
             */
           }
-          str = in.readLine();
           if (str.charAt(0) == '$'){
             thisRec.instructions.concat(str);
-            while( ((str = in.readLine()) != null) && str.charAt(0) != '#' ){
+            while( ((str = in.readLine()) != null) && !(str.equals(null) )
+                  && str.charAt(0) != '#' ){
               thisRec.instructions.concat(str);
             }
             
           }
+        }
+      }
+    } catch (Exception e){
+      e.printStackTrace();
+    }
+      
+    return recList;
+  }
+  
+  public static ArrayList simpleLoadRecipeFile(){
+    ArrayList recList = new ArrayList();
+    Recipe thisRec;
+    thisRec = new Recipe();
+    String ingredName, str;
+    ingredName = "";
+    try{
+      File recFile = new File("SimpleRecipes.txt");
+      BufferedReader in = new BufferedReader (new FileReader(recFile));
+      
+      while ((str = in.readLine()) != null){
+        if(str.charAt(0) == '#'){ //new recipe
+          thisRec = new Recipe();
+          recList.add(thisRec);
+          thisRec.name = str.substring(1, str.length());
+          //System.out.println("new recipe: " + thisRec.name);
+        }
+        else{ //ingredient
+          ingredName = str.substring(1, str.length());
+          thisRec.ingredList.add(ingredName);
+          //System.out.println("added " + ingredName + " to " + thisRec.name);
         }
       }
     } catch (Exception e){
