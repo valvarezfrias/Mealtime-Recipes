@@ -39,6 +39,8 @@ class Main {
   private static Boolean recipePossible(Recipe rec){
     
     for(String str: rec.ingredList){
+      if(rec.toString().equals("CHEESE"))
+        System.out.println(rec.ingredList);
       if (!(userIngredients.contains(str)))
         return false;
     }

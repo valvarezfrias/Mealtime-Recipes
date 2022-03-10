@@ -1,7 +1,8 @@
 #Cheesy pasta
-Italian	Vegetarian
+Italian	
+Vegetarian
 Contains dairy
-*pasta(uncooked)
+*pasta 
 cups
 2
 *mozzarella cheese

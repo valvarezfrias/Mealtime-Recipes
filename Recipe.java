@@ -49,7 +49,7 @@ class Recipe{
           thisRec = new Recipe();
           recList.add(thisRec);
           thisRec.name = str.substring(1, str.length());
-          //System.out.println("new recipe: " + thisRec.name);
+          System.out.println("new recipe: " + thisRec.name);
           while( ((str = in.readLine()) != null) && str.charAt(0) != '*' ){
             thisRec.flair.add(str);
             //System.out.println("added " + str + " to " + thisRec.name);
@@ -57,6 +57,11 @@ class Recipe{
           if (str.charAt(0) == '*'){
             ingredName += str.substring(1, str.length());
             thisRec.ingredList.add(ingredName);
+            
+            System.out.println("added " + ingredName + " to " + thisRec.name);
+            in.readLine();
+            in.readLine();
+            in.readLine();
             /*
             ingredUnit = in.readLine();
             ingredQuant = in.readLine();
